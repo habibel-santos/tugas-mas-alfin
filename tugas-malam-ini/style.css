@@ -1,0 +1,110 @@
+/* reset dasar */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* body */
+body {
+    background-image: url(portback.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    color: #333; /* teks default lebih jelas */
+    line-height: 1.6; /* jarak antar baris lebih nyaman dibaca */
+}
+
+/* perbaikan warna section */
+#hobi, #modul, #sekolah, #tanya, #kontak {
+    color: rgb(222, 218, 18); /* sebelumnya ada typo "2rgb" */
+}
+
+/* header */
+header {
+    background-color: rgb(18, 17, 17);
+    text-align: center;
+    color: rgb(135, 134, 134);
+    padding: 100px 20px;
+    border-radius: 10px;
+}
+
+/* navigasi */
+nav {
+    background: rgb(85, 85, 85);
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* kartu */
+.kartu {
+    background-color: rgb(250, 235, 215);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.5);
+}
+
+/* main */
+main {
+    padding: 20px;
+    max-width: 900px; /* biar konten tidak terlalu melebar */
+    margin: auto;
+}
+
+/* tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #eee;
+}
+
+/* tombol */
+button {
+    background-color: rgb(118, 118, 117);
+    color: rgb(216, 216, 216);
+    padding: 10px 20px;
+    border-radius: 5px; /* lebih simpel */
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: none; /* biar lebih bersih */
+}
+
+button:hover {
+    background: #ffcc00;
+    color: #333;
+}
+
+/* footer */
+footer {
+    color: antiquewhite;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
